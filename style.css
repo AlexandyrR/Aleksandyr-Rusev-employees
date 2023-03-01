@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #34568b;
+}
+
+label {
+    display: block;
+    background-color: black;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 1em;
+    width: 120px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+input[type="file"] {
+    display: none;
+}
+
+th,td {
+    padding: 12px 15px;
+}
+tr {
+    background-color: 	rgb(51, 116, 138);
+    color:black;
+    text-align: left;
+}
+
+table {
+    border-block: 1rem;
+    background-color: 	black;
+    margin:auto;
+}
